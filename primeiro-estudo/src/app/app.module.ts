@@ -8,13 +8,21 @@ import { routes } from './app.router';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { AboutComponent } from './pages/about/about.component';
+import { HomeComponent } from './home/home.component';
+import { ProdutosComponent } from './produtos/produtos.component';
+import { CobrancasComponent } from './cobrancas/cobrancas.component';
+import { SobreComponent } from './sobre/sobre.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent,
+    ProdutosComponent,
+    CobrancasComponent,
+    SobreComponent
   ],
   imports: [
     BrowserModule,
