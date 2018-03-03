@@ -7,11 +7,19 @@ import { routes } from './app.router';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
+import { TestComponent } from './page/test/test.component';
+import { EventComponent } from './page/event/event.component';
+import { SponsorsComponent } from './page/sponsors/sponsors.component';
+import { SignupComponent } from './page/signup/signup.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
+    TestComponent,
+    EventComponent,
+    SponsorsComponent,
+    SignupComponent,
   ],
 
   imports: [
