@@ -7,17 +7,13 @@ import { routes } from './app.router';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
-import { AboutComponent } from './pages/about/about.component';
-
-
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    AboutComponent,
-  
   ],
+
   imports: [
     BrowserModule,
     routes
