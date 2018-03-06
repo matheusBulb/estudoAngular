@@ -19,10 +19,57 @@ body{
         color:#fefefe;
         margin:25px;
     &:nth-child(1)
-    {margin-left: 0; }
-    
-   
+    {margin-left: 0;}
         }
     
  }
 
+    .titulo-principal{
+        font-weight: 800;
+        text-align: right;
+        text-decoration: none;
+        color: #FF7A7A;
+        font-size: 50px;
+        position: absolute;  
+        left: 0px;
+        top: 300px;
+        right: 80px;
+        opacity: 100%;
+        }
+
+        .sub-titulo{
+            font-weight: 500;
+            text-align: right;
+            text-decoration: none;
+            color:#FF7A7A;
+            font-size:50px;
+            position: absolute;
+            left: 0px;
+            top: 356px;
+            right: 80px;
+            opacity: 100%;
+            }
+
+            .title-prova{
+                font-weight: 500;
+                text-align: left;
+                text-decoration: none;
+                color:#FF7A7A;
+                font-size:30px;
+                position: absolute;
+                left: 300px;
+                top: 800px;
+                opacity: 100%;}
+                
+                .sub-title{
+                font-weight: 500;
+                text-align: left;
+                text-decoration: none;
+                color:#fefefe;
+                font-size:20px;
+                position: absolute;
+                left: 50px;
+                top: 830px;
+                opacity: 100%;}
+
+            
