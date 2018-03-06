@@ -1,129 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
 
 @import "../../node_modules/bulma/bulma";
+@import "./includes/variables";
+@import "./includes/layout";
 
 body{ 
-    font-family: 'Lato', sans-serif;
-    background-color:black;
-    
-    }
+    font-family: $lato;
+}
 
-
- .nav{
-    font-size: 20px;
-    text-shadow: 0px 3px 6px red;
-    padding-top: 19px;padding-left: 64px; padding-bottom:1140px; padding-right: 44px;
-
-    a   {
-        text-decoration: none;
-        color:#fefefe;
-        margin:25px;
-    &:nth-child(1)
-    {margin-left: 0;}
-        }
-    
- }
-
-    .titulo-principal{
-        font-weight: 800;
-        text-align: right;
-        text-decoration: none;
-        color: #FF7A7A;
-        font-size: 50px;
-        position: absolute;  
-        left: 0px;
-        top: 300px;
-        right: 80px;
-        opacity: 100%;
-        }
-
-        .sub-titulo{
-            font-weight: 500;
-            text-align: right;
-            text-decoration: none;
-            color:#FF7A7A;
-            font-size:50px;
-            position: absolute;
-            left: 0px;
-            top: 356px;
-            right: 80px;
-            opacity: 100%;
-            }
-
-            .title-prova{
-                font-weight: 900;
-                text-align: left;
-                text-decoration: none;
-                color:#FF7A7A;
-                font-size:30px;
-                position: absolute;
-                left: 50px;
-                top: 800px;
-                opacity: 100%;}
-                
-                .sub-title{
-                font-weight: 500;
-                text-align: left;
-                text-decoration: none;
-                color:#fefefe;
-                font-size:20px;
-                position: absolute;
-                left: 50px;
-                top: 850px;
-                opacity: 100%;}
-
-               .title-evento{
-                   font-weight: 900;
-                   text-align: center;
-                   text-decoration: none;
-                   color:#FF7A7A;
-                   font-size: 30px;
-                   position: absolute;
-                   left: 0px;
-                   right: 100px;
-                   top: 800px;} 
-
-                .sub-evento{
-                    font-weight: 500;
-                   text-align: center;
-                   text-decoration: none;
-                   color:#ffffff;
-                   font-size: 20px;
-                   position: absolute;
-                   left: 200px;
-                   right: 80px;
-                   top: 850px;}
-
-                .title-patrocinio{
-                    font-weight: 900;
-                   text-align: center;
-                   text-decoration: none;
-                   color:#FF7A7A;
-                   font-size: 30px;
-                   position: absolute;
-                   left: 900px;
-                   right: 80px;
-                   top: 800px;} 
-
-                   .sub-patrocinio{
-                    font-weight: 500;
-                    text-align: center;
-                    text-decoration: none;
-                    color:#ffffff;
-                    font-size: 20px;
-                    position: absolute;
-                    left: 885px;
-                    right: 80px;
-                    top: 850px;}
-                   
-
-                
-                    
-                
-
-                
-                
-
-                
-
-            
+.titulo-principal{
+    font-weight: 800;
+    color: $red;
+    font-size: 60px; 
+    right: 80px;
+    color:$red;
+    margin-bottom:10px;
+    font-family:$impact;
+}
+.sub-titulo{
+    font-size:28px;
+    color:#fefefe;
+}

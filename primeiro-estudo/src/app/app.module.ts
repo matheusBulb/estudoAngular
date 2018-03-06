@@ -11,6 +11,7 @@ import { TestComponent } from './page/test/test.component';
 import { EventComponent } from './page/event/event.component';
 import { SponsorsComponent } from './page/sponsors/sponsors.component';
 import { SignupComponent } from './page/signup/signup.component';
+import { HeaderComponent } from './partials/header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { SignupComponent } from './page/signup/signup.component';
     EventComponent,
     SponsorsComponent,
     SignupComponent,
+    HeaderComponent,
   ],
 
   imports: [
