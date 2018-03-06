@@ -51,13 +51,13 @@ body{
             }
 
             .title-prova{
-                font-weight: 500;
+                font-weight: 900;
                 text-align: left;
                 text-decoration: none;
                 color:#FF7A7A;
                 font-size:30px;
                 position: absolute;
-                left: 300px;
+                left: 50px;
                 top: 800px;
                 opacity: 100%;}
                 
@@ -69,7 +69,61 @@ body{
                 font-size:20px;
                 position: absolute;
                 left: 50px;
-                top: 830px;
+                top: 850px;
                 opacity: 100%;}
+
+               .title-evento{
+                   font-weight: 900;
+                   text-align: center;
+                   text-decoration: none;
+                   color:#FF7A7A;
+                   font-size: 30px;
+                   position: absolute;
+                   left: 0px;
+                   right: 100px;
+                   top: 800px;} 
+
+                .sub-evento{
+                    font-weight: 500;
+                   text-align: center;
+                   text-decoration: none;
+                   color:#ffffff;
+                   font-size: 20px;
+                   position: absolute;
+                   left: 200px;
+                   right: 80px;
+                   top: 850px;}
+
+                .title-patrocinio{
+                    font-weight: 900;
+                   text-align: center;
+                   text-decoration: none;
+                   color:#FF7A7A;
+                   font-size: 30px;
+                   position: absolute;
+                   left: 900px;
+                   right: 80px;
+                   top: 800px;} 
+
+                   .sub-patrocinio{
+                    font-weight: 500;
+                    text-align: center;
+                    text-decoration: none;
+                    color:#ffffff;
+                    font-size: 20px;
+                    position: absolute;
+                    left: 885px;
+                    right: 80px;
+                    top: 850px;}
+                   
+
+                
+                    
+                
+
+                
+                
+
+                
 
             
