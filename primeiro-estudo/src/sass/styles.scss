@@ -37,12 +37,67 @@ body{
     font-weight: 600;
     text-align: center;
     background-color: black;
+    padding-bottom: 40px;
 }
 
 .title-patrocinio{
     font-weight: 600;
     text-align: center;
-    padding: 40px;
+    padding: 10px;
     font-size: 30px;
     color: black;
 }
+
+.patrocinador-um{
+    padding: 60px;
+    border-radius:100%;
+    border:10px solid red;
+    width:200px;
+    height:200px;
+    background-color:purple;    
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    
+}
+
+.patrocinador-dois{
+    padding: 60px;
+    border-radius:100%;
+    border:10px solid blue;
+    width:200px;
+    height:200px;
+    background-color:lightblue;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    
+    
+}
+
+.patrocinador-tres{
+    padding: 60px;
+    border-radius:100%;
+    border:10px solid black;
+    width:200px;
+    height:200px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    text-align: center; 
+    
+}
+
+.patrocinador-quatro{
+    padding: 60px;
+    border-radius:100%;
+    border:10px solid yellow;
+    width:200px;
+    height:200px;
+    background-color:green;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
