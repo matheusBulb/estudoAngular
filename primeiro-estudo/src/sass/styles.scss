@@ -43,61 +43,21 @@ body{
 .title-patrocinio{
     font-weight: 600;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-size: 30px;
     color: black;
 }
 
-.patrocinador-um{
+.patrocinadores{
     padding: 60px;
     border-radius:100%;
     border:10px solid red;
     width:200px;
     height:200px;
-    background-color:purple;    
+    background-color:blue;    
     text-align: center;
     color: white;
-    font-weight: 600;
-    
-}
-
-.patrocinador-dois{
-    padding: 60px;
-    border-radius:100%;
-    border:10px solid blue;
-    width:200px;
-    height:200px;
-    background-color:lightblue;
-    color: white;
-    font-weight: 600;
-    text-align: center;
-    
-    
-}
-
-.patrocinador-tres{
-    padding: 60px;
-    border-radius:100%;
-    border:10px solid black;
-    width:200px;
-    height:200px;
-    background-color: red;
-    color: white;
-    font-weight: 600;
-    text-align: center; 
-    
-}
-
-.patrocinador-quatro{
-    padding: 60px;
-    border-radius:100%;
-    border:10px solid yellow;
-    width:200px;
-    height:200px;
-    background-color:green;
-    color: white;
-    font-weight: 600;
-    text-align: center;
+    font-weight: 600; 
     
 }
 
@@ -107,7 +67,6 @@ body{
     font-weight: 600;
     text-align: left;
     color: white;
-    padding-top: 50px;
     padding: 30px;       
 }
 
