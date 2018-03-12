@@ -124,20 +124,24 @@ body{
     font-weight: 600;
     text-align: left;
     color: white;
+    padding-top: 30px;
+    line-height: 0.2;
      
 }
 
 .linha{
     margin: auto;
-    width: 750px;
+    width: 900px;
     border-bottom: 1px solid;
-    color: #fff;
+    color: rgb(122, 119, 119);
     height: auto;
-    padding: 30px;
+    
 }
 
-.footer-midia{
+.footer-midia-container{
     font-weight: 600;
     padding: 20px;
-    align:center;   
+    text-align:center;
+    word-spacing: 15px;  
+
 }
