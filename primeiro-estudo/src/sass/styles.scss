@@ -8,99 +8,31 @@ body{
     font-family: $lato;
 }
 
-.titulo-principal{
-    font-weight: 800;
-    color: $red;
-    font-size: 60px; 
-    right: 80px;
-    color:$red;
-    margin-bottom:10px;
-    font-family:$impact;
-}
-.sub-titulo{
-    font-size:28px;
-    color:#fefefe;
-}
-
-.banner{
-    background-color:#C82626;
-    color: #fefefe;
-    width: 100%;
-    height: 229px;
-    font-size: 50px;
-    font-weight: 600;
-    text-align: center;
-    padding: 70px;    
-}
-
-.info{
-    font-weight: 600;
-    text-align: center;
-    background-color: black;
-    padding-bottom: 40px;
-}
-
-.title-patrocinio{
-    font-weight: 600;
-    text-align: center;
-    padding: 15px;
-    font-size: 30px;
-    color: black;
-}
-
-.patrocinadores{
-    padding: 60px;
-    border-radius:100%;
-    border:10px solid red;
-    width:200px;
-    height:200px;
-    background-color:blue;    
-    text-align: center;
-    color: white;
-    font-weight: 600; 
+footer{
+    padding:40px;
+    background:#2a2a2a;
+    color:#fff;
     
-}
-
-
-.footer-logo{
-    font-size: 30px;
-    font-weight: 600;
-    text-align: left;
-    color: white;
-    padding: 30px;       
-}
-
-.slogan-footer{
-    font-size: 15px;
-    font-weight: 600;
-    text-align: left;
-    color: white;
-    padding-left: 30px;
-}
-
-.info-footer{
-    font-size: 15px;
-    font-weight: 600;
-    text-align: left;
-    color: white;
-    padding-top: 30px;
-    line-height: 0.2;
-     
-}
-
-.linha{
-    margin: auto;
-    width: 900px;
-    border-bottom: 1px solid;
-    color: rgb(122, 119, 119);
-    height: auto;
+    a{
+        text-decoration:none;
+        color:#fff;
+    }
     
-}
-
-.footer-midia-container{
-    font-weight: 600;
-    padding: 20px;
-    text-align:center;
-    word-spacing: 15px;  
-
-}
+    .content{
+      margin:0 auto;
+    }
+    
+    .line-break{
+      width:100%;
+      border-bottom:1px solid #fff;
+      margin: 20px 0;
+    }
+    
+    .container-midia{
+      display:flex;
+      justify-content:center;
+    }
+    .midia-icon{
+      padding:10px;
+    }
+  }

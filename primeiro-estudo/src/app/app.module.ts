@@ -12,6 +12,7 @@ import { EventComponent } from './page/event/event.component';
 import { SponsorsComponent } from './page/sponsors/sponsors.component';
 import { SignupComponent } from './page/signup/signup.component';
 import { HeaderComponent } from './partials/header/header.component';
+import { FooterComponent } from './partials/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { HeaderComponent } from './partials/header/header.component';
     SponsorsComponent,
     SignupComponent,
     HeaderComponent,
+    FooterComponent,
   ],
 
   imports: [

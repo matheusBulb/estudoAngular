@@ -10,10 +10,10 @@ import { SignupComponent } from './page/signup/signup.component';
 
 export const router: Routes = [
   {path:'',component: IndexComponent},
-  {path:'test',component: TestComponent},
-  {path:'event',component: EventComponent},
-  {path:'sponsor',component: SponsorsComponent},
-  {path:'signup',component:SignupComponent},
+  {path:'provas',component: TestComponent},
+  {path:'evento',component: EventComponent},
+  {path:'patrocinadores',component: SponsorsComponent},
+  {path:'inscricoes',component:SignupComponent},
 ];
 
 export const routes: ModuleWithProviders = RouterModule.forRoot(router);
