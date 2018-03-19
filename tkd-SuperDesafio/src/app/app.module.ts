@@ -14,6 +14,7 @@ import { SignupComponent } from './page/signup/signup.component';
 import { HeaderComponent } from './partials/header/header.component';
 import { FooterComponent } from './partials/footer/footer.component';
 import { MenuComponent } from './partials/menu/menu.component';
+import { ProvaDetalheComponent } from './partials/prova-detalhe/prova-detalhe.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { MenuComponent } from './partials/menu/menu.component';
     HeaderComponent,
     FooterComponent,
     MenuComponent,
+    ProvaDetalheComponent,
   ],
 
   imports: [
