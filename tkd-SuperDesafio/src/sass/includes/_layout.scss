@@ -2,7 +2,7 @@
     min-height:100vh;
     background:#d2d2d2;
     position:relative;
-    background-image:url('../assets/image/banner-image.jpg');
+    background-image:url('../assets/image/landing-background.jpg');
     background-size:cover;
 
     .tarja-principal{
@@ -14,7 +14,12 @@
     }
 }
 
-
+.fundo-preto-transparente{
+    background:rgba(0,0,0,.5);
+    width:100%;
+    height:100%;
+    position:Absolute;
+}
 
 .view-conteudo{
     position:absolute;
@@ -28,13 +33,13 @@
         color: $red;
         font-size: 60px; 
         right: 80px;
-        color:$red;
         margin-bottom:10px;
         font-family:$impact;
     }
     .sub-titulo{
         font-size:28px;
         color:#fefefe;
+        text-shadow:0 3px 12px rgba(0,0,0,.2);
     }
 
     .logo-img{
@@ -57,12 +62,38 @@
     height:350px;
     width:auto;
     position:relative;
-    //background-image:url('../assets/image/.jpg');
-    .fundo-preto-transparente{
-        background:rgba(0,0,0,.5);
-        width:100%;
-        height:100%;
-        position:Absolute;
+    background-size:cover;
+
+    &.provas{
+        background-image:url('../assets/image/provas-background.jpg');
+    }
+
+    &.evento{
+        background-image: url('../assets/image/event-background.jpg');
+    }
+    &.patrocinio{
+        background-image: url('../assets/image/patrocinios-background.jpg');
+    }
+
+    .arrow-btn{
+        position:absolute;
+        width:60px;
+        height:40px;
+        background-size:contain;
+        background-repeat:no-repeat;
+        bottom:40px;
+        right:60px;
+        background-image:url('../assets/image/icons/right-arrow.svg');
+        transition:all .2s;
+        cursor:pointer;
+
+        @media(max-width:1750px){
+            bottom:10px;
+        }
+
+        &:hover{
+            right:40px;
+        }
     }
 }
 
@@ -128,4 +159,70 @@
     width:200px;
     height:200px; 
     margin:auto;
+}
+
+.intro-view{
+    min-height:40vh;
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    font-family: $impact;
+
+    .intro-view-logo{
+        position:absolute;
+        right:20px;
+        top:32px;
+        font-size:36px;
+        color:$red;
+        z-index:2;
+
+        @media(max-width:960px){
+            display:none;
+        }
+    }
+    .intro-view-title{
+        z-index:2;
+        color:#fff;
+        font-size:100px;
+    }
+
+    &.evento{
+        background-image:url('../assets/image/event-view-background.jpg');
+        background-size:cover;
+        background-position:center;
+    }
+}
+
+.evento-detalhes{
+    background:#2a2a2a;
+    padding:40px;
+    color:#fff;
+
+    .detalhe-container{
+        text-align:center;
+    }
+    .detalhe-icon{
+        img{
+            width:auto;
+            height:260px;
+        }
+    }
+
+    ul{
+        text-align:left;
+        padding-top:10px;
+        list-style-type: disc;
+        @media(max-width:768px){
+            text-align:center;
+        }
+        li{
+            padding:5px 0;
+        }
+    }
+
+    .detalhe-title{
+        font-size:32px;
+        padding:20px 0;
+    }
 }

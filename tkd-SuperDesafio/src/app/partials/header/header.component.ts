@@ -13,6 +13,18 @@ export class HeaderComponent implements OnInit {
     var menuBtn = document.querySelector('.menu-icon');
     var menuToggle = document.querySelector('.menu');
     var menuLink = document.querySelectorAll('.menu-link');
+    var navBar = document.querySelector('.nav')
+
+    window.onscroll = function changeClass(){
+      var scrollPosY = window.pageYOffset | document.body.scrollTop;
+      var _nav = navBar as HTMLElement;
+      if(scrollPosY > 300){
+        _nav.setAttribute("style" ,"background: rgba(0,0,0,.5);");
+      }if(scrollPosY < 300){
+        _nav.setAttribute("style", "background:transparent");
+      }
+
+    }
 
     function abrirMenu() {
       menuBtn.addEventListener('click', function(){
@@ -30,6 +42,8 @@ export class HeaderComponent implements OnInit {
         });
       }
     }
+
+
 
     abrirMenu();
     fecharMenu();
