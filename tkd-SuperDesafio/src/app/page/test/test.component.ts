@@ -9,6 +9,9 @@ import { ProvaDetalheComponent } from '../../partials/prova-detalhe/prova-detalh
 
 })
 export class TestComponent implements OnInit {
+
+  title:string = "provas"
+  
   constructor() {}
 
   ngOnInit() {

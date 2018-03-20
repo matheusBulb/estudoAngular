@@ -192,6 +192,12 @@
         background-size:cover;
         background-position:center;
     }
+
+    &.provas{
+        background-image:url('../assets/image/tests-background.jpg');
+        background-size:cover;
+        background-position:0 30%;
+    }
 }
 
 .evento-detalhes{
@@ -241,6 +247,112 @@
             text-transform:uppercase;
             font-weight:800;
             letter-spacing:15px;
+        }
+    }
+}
+
+.provas-grid{
+    .columns,.column{
+        margin:0;
+        padding:0;
+    }
+
+    .prova-card{
+        position:relative;
+        width:100%;
+        height:440px;
+        background:$red;
+
+        &.distancia{
+            background-image:url('../assets/image/chute-distancia.jpg');
+            background-size:cover;
+            background-position: center;
+        }
+
+        &.altura{
+            background-image:url('../assets/image/chute-altura.jpg');
+            background-size:cover;
+            background-position: center;
+        }
+
+        &.poomsae{
+            background-image:url('../assets/image/poomsae.jpg');
+            background-size:cover;
+            background-position: center;
+        }
+
+        &.velocidade{
+            background-image:url('../assets/image/chute-velocidade.jpg');
+            background-size:cover;
+            background-position: center;
+        }
+
+        &.rei{
+            background-image:url('../assets/image/desafio-rei.jpg');
+            background-size:cover;
+            background-position: center;
+        }
+
+        &.luta{
+            background-image:url('../assets/image/luta.jpg');
+            background-size:cover;
+            background-position: center;
+        }
+    }
+
+    .prova-conteudo{
+        width:100%;
+        position:absolute;
+        bottom:40px;
+        text-align:center;
+    }
+    .prova-title{
+        font-size:22px;
+        font-weight:800;
+        font-style: italic;
+        color:#ffff;
+        text-transform:uppercase;
+        padding:10px 0;
+    }
+
+    .prova-toggle-btn{
+        width:40px;
+        height:40px;
+        border:3px solid #fff;
+        border-radius:100%;
+        margin:auto;
+        position:relative;
+        transition:all .2s;
+        cursor:pointer;
+
+        &:before{
+            content:"";
+            display:block;
+            position:absolute;
+            width:60%;
+            height:3px;
+            background:#ffff;
+            top:calc(50% - 1px);
+            left:calc(50% - 30%);
+            transition:all .2s;
+        }
+
+        &:after{
+            content:"";
+            display:block;
+            position:absolute;
+            width:3px;
+            height:60%;
+            background:#ffff;
+            left:calc(50% - 1px);
+            top:calc(50% - 30%);
+            transition:all .2s;
+        }
+
+        &.active{
+            &:after{
+                transform:rotate(90deg);
+            }
         }
     }
 }
