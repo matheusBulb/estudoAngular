@@ -226,3 +226,21 @@
         padding:20px 0;
     }
 }
+
+.premios{
+    height:auto;
+    width:100%;
+    .premiacao-head{
+        padding:40px;
+        text-align:center;
+        background:#C82626;
+        
+        p{
+            font-size:38px;
+            color:#fff;
+            text-transform:uppercase;
+            font-weight:800;
+            letter-spacing:15px;
+        }
+    }
+}
