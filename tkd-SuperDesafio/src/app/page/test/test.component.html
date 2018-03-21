@@ -11,7 +11,7 @@
     <div class="container-fluid">
         <div class="columns">
             <div class="column">
-                <div class="prova-card distancia">
+                <div id="distancia" class="prova-card distancia">
                     <div class="fundo-preto-transparente"></div>
                     <div class="prova-conteudo">
                         <div class="prova-title">salto em distância</div>
@@ -21,7 +21,7 @@
             </div>
 
             <div class="column">
-                <div class="prova-card altura">
+                <div id="altura" class="prova-card altura">
                     <div class="fundo-preto-transparente"></div>
                     <div class="prova-conteudo">
                         <div class="prova-title">salto em altura</div>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="column">
-                <div class="prova-card poomsae">
+                <div id="poomsae" class="prova-card poomsae">
                     <div class="fundo-preto-transparente"></div>
                     <div class="prova-conteudo">
                         <div class="prova-title">poomsae</div>
@@ -44,7 +44,7 @@
 
         <div class="columns">
             <div class="column">
-                <div class="prova-card velocidade">
+                <div id="velocidade" class="prova-card velocidade">
                     <div class="fundo-preto-transparente"></div>
                     <div class="prova-conteudo">
                         <div class="prova-title">chute de velocidade</div>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="column">
-                <div class="prova-card rei">
+                <div id="rei" class="prova-card rei">
                     <div class="fundo-preto-transparente"></div>
                     <div class="prova-conteudo">
                         <div class="prova-title">desafio do rei</div>
@@ -64,7 +64,7 @@
             </div>
 
             <div class="column">
-                <div class="prova-card luta">
+                <div id="luta" class="prova-card luta">
                     <div class="fundo-preto-transparente"></div>
                     <div class="prova-conteudo">
                         <div class="prova-title">luta</div>
@@ -74,5 +74,22 @@
             </div>
 
         </div>
+
+        <ng-template ngFor [ngForOf]="items" let-item>
+            <div class="prova-expand">
+                <div class="columns">
+                    <div class="column is-4">
+                        <div class="prova-expand-container">
+                            <div class="prova-expand-title is-uppercase">{{ item['name'] }}</div>
+                            <div class="prova-expand-desc">{{ item['description'] }}</div>
+                        </div>
+                    </div>
+                
+                    <div class="column">
+                        <div class="prova-expand-image"></div>
+                    </div>
+                </div>
+            </div>
+        </ng-template>
     </div>
 </section>
